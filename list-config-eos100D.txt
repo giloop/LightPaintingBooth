@@ -1,0 +1,98 @@
+actions
+-------
+/main/actions/uilock
+/main/actions/syncdatetime
+/main/actions/autofocusdrive
+/main/actions/manualfocusdrive
+/main/actions/eoszoom
+/main/actions/eoszoomposition
+/main/actions/eosviewfinder
+/main/actions/eosremoterelease
+
+
+/main/settings/datetime
+/main/settings/reviewtime
+/main/settings/output
+/main/settings/movierecordtarget
+/main/settings/evfmode
+/main/settings/ownername
+/main/settings/artist
+/main/settings/copyright
+/main/settings/customfuncex
+/main/settings/autopoweroff
+/main/settings/capturetarget
+/main/settings/capture
+
+/main/status/serialnumber
+/main/status/manufacturer
+/main/status/cameramodel
+/main/status/deviceversion
+/main/status/vendorextension
+/main/status/model
+/main/status/ptpversion
+/main/status/batterylevel
+/main/status/lensname
+/main/status/eosserialnumber
+/main/status/shuttercounter
+/main/status/availableshots
+
+/main/imgsettings/imageformat
+	Choice: 0 Grand JPEG fin
+	Choice: 1 Grand JPEG normal
+	Choice: 2 Moyen JPEG fin
+	Choice: 3 Moyen JPEG normal
+	Choice: 4 Small Fine JPEG  (S1 Fine)
+	Choice: 5 Small Normal JPEG (S1 Normal)
+	Choice: 6 Smaller JPEG (S2)
+	Choice: 7 Tiny JPEG (S3)
+	Choice: 8 Brut et grand JPEG fin
+	Choice: 9 Brut
+/main/imgsettings/imageformatsd
+/main/imgsettings/imageformatcf
+/main/imgsettings/iso
+/main/imgsettings/whitebalance
+/main/imgsettings/colortemperature
+/main/imgsettings/whitebalanceadjusta
+/main/imgsettings/whitebalanceadjustb
+/main/imgsettings/whitebalancexa
+/main/imgsettings/whitebalancexb
+/main/imgsettings/colorspace
+
+/main/capturesettings/focusmode
+/main/capturesettings/autoexposuremode
+	Label: Mode d'exposition automatique Canon                                     
+	Choice: 0 P
+	Choice: 1 TV
+	Choice: 2 AV
+	Choice: 3 Manuel
+	Choice: 4 Pose longue
+	Choice: 5 A_DEP
+	Choice: 6 DEP
+	Choice: 7 Personnalisé
+	Choice: 8 Verrou
+	Choice: 9 Vert
+	Choice: 10 Portrait de nuit
+	Choice: 11 Sports
+	Choice: 12 Portrait
+	Choice: 13 Paysage
+	Choice: 14 Gros plan
+	Choice: 15 Flash désactivé
+/main/capturesettings/drivemode
+/main/capturesettings/picturestyle
+/main/capturesettings/aperture
+/main/capturesettings/shutterspeed
+	Réglage par valeur: 
+	gphoto2 --set-config shutterspeed=10
+	Réglage par index : 
+	gphoto2 --set-config-index shutterspeed=3
+
+/main/capturesettings/meteringmode
+/main/capturesettings/bracketmode
+/main/capturesettings/aeb
+
+/main/other/d049
+/main/other/d402
+/main/other/d407
+/main/other/d406
+/main/other/d303
+/main/other/5001

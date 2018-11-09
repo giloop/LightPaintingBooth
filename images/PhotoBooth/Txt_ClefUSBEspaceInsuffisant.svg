@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="925.06274"
+   height="613.41058"
+   id="svg4136"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   viewBox="0 0 925.06274 613.41058"
+   sodipodi:docname="Txt_ClefUSBEspaceInsuffisant.svg"
+   inkscape:export-filename="/home/pi/dev/PhotoBooth_Giloop/images/USBEspaceInsuffisant.png"
+   inkscape:export-xdpi="88"
+   inkscape:export-ydpi="88">
+  <defs
+     id="defs4138" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.40429688"
+     inkscape:cx="625.25606"
+     inkscape:cy="244.54296"
+     inkscape:current-layer="layer2"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="870"
+     inkscape:window-height="771"
+     inkscape:window-x="380"
+     inkscape:window-y="80"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata4141">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Fond et bouton"
+     inkscape:groupmode="layer"
+     transform="translate(-39.574871,-115.0145)"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:10.62992096;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4709"
+       width="925.06274"
+       height="613.41058"
+       x="39.574871"
+       y="112.54108"
+       inkscape:export-xdpi="88"
+       inkscape:export-ydpi="88" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Appuyez"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Pas d'images"
+     transform="translate(-39.574871,-115.0145)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:93.64121246px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Condensed;-inkscape-font-specification:Roboto Condensed"
+       x="546.70599"
+       y="278.26648"
+       id="text4684"
+       sodipodi:linespacing="125%"
+       transform="matrix(1,0,-0.17449132,1,0,0)"><tspan
+         sodipodi:role="line"
+         x="546.70599"
+         y="278.26648"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#800000;font-family:Roboto Condensed;-inkscape-font-specification:Roboto Condensed"
+         id="tspan4733">!!! Espace insuffisant</tspan><tspan
+         sodipodi:role="line"
+         x="546.70599"
+         y="395.31799"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Roboto Condensed;-inkscape-font-specification:Roboto Condensed"
+         id="tspan2993">sur la clef USB</tspan><tspan
+         sodipodi:role="line"
+         x="546.70599"
+         y="512.36951"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Roboto Condensed;-inkscape-font-specification:Roboto Condensed"
+         id="tspan2995">insérer une autre</tspan><tspan
+         sodipodi:role="line"
+         x="546.70599"
+         y="629.42102"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Roboto Condensed;-inkscape-font-specification:Roboto Condensed"
+         id="tspan2997">clef !!!</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Pas d'appareil"
+     style="display:inline" />
+</svg>

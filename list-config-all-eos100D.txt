@@ -1,0 +1,482 @@
+/main/actions/uilock
+Label: Verrouillage d’interface utilisateur
+Type: TOGGLE
+Current: 2
+/main/actions/syncdatetime
+Label: Synchroniser la date et l'heure de l'appareil avec celles de l'ordinateur
+Type: TOGGLE
+Current: 0
+/main/actions/autofocusdrive
+Label: Fonction de mise au point automatique d'appareil reflex numérique Canon
+Type: TOGGLE
+Current: 0
+/main/actions/manualfocusdrive
+Label: Fonction de mise au point manuelle d'appareil reflex numérique Canon
+Type: RADIO
+Current: Aucune
+Choice: 0 Proche 1
+Choice: 1 Proche 2
+Choice: 2 Proche 3
+Choice: 3 Aucune
+Choice: 4 Loin 1
+Choice: 5 Loin 2
+Choice: 6 Loin 3
+/main/actions/eoszoom
+Label: Zoom de Canon EOS
+Type: TEXT
+Current: 0
+/main/actions/eoszoomposition
+Label: Position du zoom de Canon EOS
+Type: TEXT
+Current: 0,0
+/main/actions/eosviewfinder
+Label: Viewfinder de Canon EOS
+Type: TOGGLE
+Current: 2
+/main/actions/eosremoterelease
+Label: Télécommande de déblocage du Canon EOS
+Type: RADIO
+Current: Aucune
+Choice: 0 Aucune
+Choice: 1 Appuyez à moitié
+Choice: 2 Appuyez complètement
+Choice: 3 Relâchez à moitié
+Choice: 4 Relâchez complètement
+Choice: 5 Immédiat
+Choice: 6 Appuyez sur 1
+Choice: 7 Appuyez sur 2
+Choice: 8 Appuyez sur 3
+Choice: 9 Relâchez 1
+Choice: 10 Relâchez 2
+Choice: 11 Relâchez 3
+/main/settings/datetime
+Label: Date et heure de l'appareil
+Type: DATE
+Current: 1506709852
+Printable: ven. 29 sept. 2017 20:30:52 CEST
+Help: Utiliser « maintenant » comme date actuelle de réglage.
+
+/main/settings/reviewtime
+Label: Temps d'affichage rapide
+Type: RADIO
+Current: 2 secondes
+Choice: 0 Aucune
+Choice: 1 2 secondes
+Choice: 2 4 secondes
+Choice: 3 8 secondes
+Choice: 4 Attente
+/main/settings/output
+Label: Type de sortie de l'appareil
+Type: RADIO
+Current: Désactivé
+Choice: 0 Désactivé
+Choice: 1 TFT
+Choice: 2 PC
+Choice: 3 TFT et PC
+Choice: 4 Setting 4
+Choice: 5 Setting 5
+Choice: 6 Setting 6
+Choice: 7 Setting 7
+/main/settings/movierecordtarget
+Label: Recording Destination
+Type: RADIO
+Current: Disabled
+Choice: 0 Disabled
+/main/settings/evfmode
+Label: Mode EVF
+Type: RADIO
+Current: 1
+Choice: 0 1
+Choice: 1 0
+/main/settings/ownername
+Label: Nom du propriétaire
+Type: TEXT
+Current: Gilles Gonon
+/main/settings/artist
+Label: Artiste
+Type: TEXT
+Current: Giloop
+/main/settings/copyright
+Label: Copyright
+Type: TEXT
+Current: Gilles Gonon
+/main/settings/customfuncex
+Label: Fonctions Ex personnalisées
+Type: TEXT
+Current: 10,c189,d105,3,
+/main/settings/autopoweroff
+Label: Autoextinction
+Type: TEXT
+Current: 0
+/main/settings/capturetarget
+Label: Cible d'acquisition
+Type: RADIO
+Current: Mémoire interne
+Choice: 0 Mémoire interne
+Choice: 1 Carte mémoire
+/main/settings/capture
+Label: Acquisition
+Type: TOGGLE
+Current: 0
+/main/status/serialnumber
+Label: Numéro de série
+Type: TEXT
+Current: ed37ab5a194346878d06d923136a44be
+/main/status/manufacturer
+Label: Fabricant de l'appareil
+Type: TEXT
+Current: Canon Inc.
+/main/status/cameramodel
+Label: Modèle de l'appareil photographique
+Type: TEXT
+Current: Canon EOS 100D
+/main/status/deviceversion
+Label: Version du périphérique
+Type: TEXT
+Current: 3-1.0.0
+/main/status/vendorextension
+Label: Extension du fabricant
+Type: TEXT
+Current: Aucune
+/main/status/model
+Label: Modèle de l'appareil photographique
+Type: TEXT
+Current: 2147484486
+/main/status/ptpversion
+Label: Version de PTP
+Type: TEXT
+Current: 256
+/main/status/batterylevel
+Label: Niveau de batterie
+Type: TEXT
+Current: 100 %
+/main/status/lensname
+Label: Nom d'objectif
+Type: TEXT
+Current: EF-S18-55mm f/3.5-5.6 IS STM
+/main/status/eosserialnumber
+Label: Numéro de série
+Type: TEXT
+Current: 043073028344
+/main/status/shuttercounter
+Label: Décompte du temps de pose
+Type: TEXT
+Current: 11943
+/main/status/availableshots
+Label: Prises de vue disponibles
+Type: TEXT
+Current: 48996
+/main/imgsettings/imageformat
+Label: Format d'image
+Type: RADIO
+Current: Grand JPEG fin
+Choice: 0 Grand JPEG fin
+Choice: 1 Grand JPEG normal
+Choice: 2 Moyen JPEG fin
+Choice: 3 Moyen JPEG normal
+Choice: 4 Small Fine JPEG  (S1 Fine)
+Choice: 5 Small Normal JPEG (S1 Normal)
+Choice: 6 Smaller JPEG (S2)
+Choice: 7 Tiny JPEG (S3)
+Choice: 8 Brut et grand JPEG fin
+Choice: 9 Brut
+/main/imgsettings/imageformatsd
+Label: Format d'image SD
+Type: RADIO
+Current: Grand JPEG fin
+Choice: 0 Grand JPEG fin
+Choice: 1 Grand JPEG normal
+Choice: 2 Moyen JPEG fin
+Choice: 3 Moyen JPEG normal
+Choice: 4 Small Fine JPEG  (S1 Fine)
+Choice: 5 Small Normal JPEG (S1 Normal)
+Choice: 6 Smaller JPEG (S2)
+Choice: 7 Tiny JPEG (S3)
+Choice: 8 Brut et grand JPEG fin
+Choice: 9 Brut
+/main/imgsettings/imageformatcf
+Label: Format d'image CF
+Type: RADIO
+Current: Grand JPEG fin
+Choice: 0 Grand JPEG fin
+Choice: 1 Grand JPEG normal
+Choice: 2 Moyen JPEG fin
+Choice: 3 Moyen JPEG normal
+Choice: 4 Small Fine JPEG  (S1 Fine)
+Choice: 5 Small Normal JPEG (S1 Normal)
+Choice: 6 Smaller JPEG (S2)
+Choice: 7 Tiny JPEG (S3)
+Choice: 8 Brut et grand JPEG fin
+Choice: 9 Brut
+/main/imgsettings/iso
+Label: Vitesse ISO
+Type: RADIO
+Current: 100
+Choice: 0 Automatique
+Choice: 1 100
+Choice: 2 200
+Choice: 3 400
+Choice: 4 800
+Choice: 5 1600
+Choice: 6 3200
+Choice: 7 6400
+Choice: 8 12800
+/main/imgsettings/whitebalance
+Label: Balance des blancs
+Type: RADIO
+Current: Fluorescent
+Choice: 0 Automatique
+Choice: 1 Lumière naturelle
+Choice: 2 Ombre
+Choice: 3 Nuageux
+Choice: 4 Tungstène
+Choice: 5 Fluorescent
+Choice: 6 Flash
+Choice: 7 Manuel
+/main/imgsettings/colortemperature
+Label: Température de couleur
+Type: TEXT
+Current: 5200
+/main/imgsettings/whitebalanceadjusta
+Label: Balance des blancs ajustement A
+Type: RADIO
+Current: 0
+Choice: 0 -9
+Choice: 1 -8
+Choice: 2 -7
+Choice: 3 -6
+Choice: 4 -5
+Choice: 5 -4
+Choice: 6 -3
+Choice: 7 -2
+Choice: 8 -1
+Choice: 9 0
+Choice: 10 1
+Choice: 11 2
+Choice: 12 3
+Choice: 13 4
+Choice: 14 5
+Choice: 15 6
+Choice: 16 7
+Choice: 17 8
+Choice: 18 9
+/main/imgsettings/whitebalanceadjustb
+Label: Balance des blancs ajustement B
+Type: RADIO
+Current: 0
+Choice: 0 -9
+Choice: 1 -8
+Choice: 2 -7
+Choice: 3 -6
+Choice: 4 -5
+Choice: 5 -4
+Choice: 6 -3
+Choice: 7 -2
+Choice: 8 -1
+Choice: 9 0
+Choice: 10 1
+Choice: 11 2
+Choice: 12 3
+Choice: 13 4
+Choice: 14 5
+Choice: 15 6
+Choice: 16 7
+Choice: 17 8
+Choice: 18 9
+/main/imgsettings/whitebalancexa
+Label: Balance des blancs X A
+Type: TEXT
+Current: 0
+/main/imgsettings/whitebalancexb
+Label: Balance des blancs X B
+Type: TEXT
+Current: 0
+/main/imgsettings/colorspace
+Label: Espace de couleur
+Type: RADIO
+Current: sRVB
+Choice: 0 sRVB
+Choice: 1 AdobeRVB
+/main/capturesettings/focusmode
+Label: Mode de mise au point
+Type: RADIO
+Current: Valeur 0003 inconnue
+Choice: 0 Un coup
+Choice: 1 AI Focus
+Choice: 2 AI Servo
+Choice: 3 Valeur 0003 inconnue
+/main/capturesettings/autoexposuremode
+Label: Mode d'exposition automatique Canon
+Type: RADIO
+Current: Manuel
+Choice: 0 P
+Choice: 1 TV
+Choice: 2 AV
+Choice: 3 Manuel
+Choice: 4 Pose longue
+Choice: 5 A_DEP
+Choice: 6 DEP
+Choice: 7 Personnalisé
+Choice: 8 Verrou
+Choice: 9 Vert
+Choice: 10 Portrait de nuit
+Choice: 11 Sports
+Choice: 12 Portrait
+Choice: 13 Paysage
+Choice: 14 Gros plan
+Choice: 15 Flash désactivé
+/main/capturesettings/drivemode
+Label: Mode de commande
+Type: RADIO
+Current: Unique
+Choice: 0 Unique
+Choice: 1 Continu
+Choice: 2 Un seul silencieux
+Choice: 3 Continu silencieux
+Choice: 4 Retardateur de 10 secondes
+Choice: 5 Retardateur de 2 secondes
+Choice: 6 Valeur 0007 inconnue
+/main/capturesettings/picturestyle
+Label: Style de l'image
+Type: RADIO
+Current: Standard
+Choice: 0 Automatique
+Choice: 1 Standard
+Choice: 2 Portrait
+Choice: 3 Paysage
+Choice: 4 Neutre
+Choice: 5 Fidèle
+Choice: 6 Monochrome
+Choice: 7 Défini par d'utilisateur 1
+Choice: 8 Défini par d'utilisateur 2
+Choice: 9 Défini par d'utilisateur 3
+/main/capturesettings/aperture
+Label: Ouverture
+Type: RADIO
+Current: 3.5
+Choice: 0 3.5
+Choice: 1 4
+Choice: 2 4.5
+Choice: 3 5
+Choice: 4 5.6
+Choice: 5 6.3
+Choice: 6 7.1
+Choice: 7 8
+Choice: 8 9
+Choice: 9 10
+Choice: 10 11
+Choice: 11 13
+Choice: 12 14
+Choice: 13 16
+Choice: 14 18
+Choice: 15 20
+Choice: 16 22
+/main/capturesettings/shutterspeed
+Label: Temps de pose
+Type: RADIO
+Current: 20
+Choice: 0 pose longue
+Choice: 1 30
+Choice: 2 25
+Choice: 3 20
+Choice: 4 15
+Choice: 5 13
+Choice: 6 10
+Choice: 7 8
+Choice: 8 6
+Choice: 9 5
+Choice: 10 4
+Choice: 11 3.2
+Choice: 12 2.5
+Choice: 13 2
+Choice: 14 1.6
+Choice: 15 1.3
+Choice: 16 1
+Choice: 17 0.8
+Choice: 18 0.6
+Choice: 19 0,5
+Choice: 20 0.4
+Choice: 21 0.3
+Choice: 22 1/4
+Choice: 23 1/5
+Choice: 24 1/6
+Choice: 25 1/8
+Choice: 26 1/10
+Choice: 27 1/13
+Choice: 28 1/15
+Choice: 29 1/20
+Choice: 30 1/25
+Choice: 31 1/30
+Choice: 32 1/40
+Choice: 33 1/50
+Choice: 34 1/60
+Choice: 35 1/80
+Choice: 36 1/100
+Choice: 37 1/125
+Choice: 38 1/160
+Choice: 39 1/200
+Choice: 40 1/250
+Choice: 41 1/320
+Choice: 42 1/400
+Choice: 43 1/500
+Choice: 44 1/640
+Choice: 45 1/800
+Choice: 46 1/1000
+Choice: 47 1/1250
+Choice: 48 1/1600
+Choice: 49 1/2000
+Choice: 50 1/2500
+Choice: 51 1/3200
+Choice: 52 1/4000
+/main/capturesettings/meteringmode
+Label: Mode de mesure
+Type: RADIO
+Current: Moyenne pondérée centrale
+Choice: 0 Évaluative
+Choice: 1 Partielle
+Choice: 2 Spot
+Choice: 3 Moyenne pondérée centrale
+/main/capturesettings/bracketmode
+Label: Mode de bracket
+Type: TEXT
+Current: 0
+/main/capturesettings/aeb
+Label: Exposition automatique du bracketing
+Type: RADIO
+Current: désactivé
+Choice: 0 désactivé
+Choice: 1 +/- 1/3
+Choice: 2 +/- 2/3
+Choice: 3 +/- 1
+Choice: 4 +/- 1 1/3
+Choice: 5 +/- 1 2/3
+Choice: 6 +/- 2
+/main/other/d049
+Label: Identifiant du modèle :
+Type: TEXT
+Current: -2147482810
+/main/other/d402
+Label: PTP Property 0xd402
+Type: TEXT
+Current: Canon EOS 100D
+/main/other/d407
+Label: PTP Property 0xd407
+Type: TEXT
+Current: 1
+/main/other/d406
+Label: PTP Property 0xd406
+Type: TEXT
+Current: Unknown Initiator
+/main/other/d303
+Label: PTP Property 0xd303
+Type: TEXT
+Current: 1
+/main/other/5001
+Label: Niveau de batterie
+Type: MENU
+Current: 100
+Choice: 0 100
+Choice: 1 0
+Choice: 2 75
+Choice: 3 0
+Choice: 4 50
